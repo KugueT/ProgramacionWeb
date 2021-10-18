@@ -1,0 +1,27 @@
+body{
+	margin: 1px;
+}
+p.p1{
+
+background-color: white;
+height: 50px;
+top: 5px;
+width: 250px;
+margin: 1px;
+
+}
+p.p2{
+color: gray;
+left: 50px;
+width:200px;
+margin-bottom: 30px;
+top: -190px;
+  position: relative;
+}
+img.im{
+   background-color: white;
+   margin: 5px; 
+   float: left;
+   width: 40px;
+
+}
