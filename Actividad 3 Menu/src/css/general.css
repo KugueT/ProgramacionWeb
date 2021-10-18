@@ -1,0 +1,84 @@
+:root{
+
+  --width: 300px;
+  --padding: 10px;
+  --bgcolor: rgb(52,52,52);
+  --width-collapsed: 50px;
+}
+body{
+	background: #995BED;
+padding: 0px;
+margin: var(--width-collapsed);
+}
+
+#sidemenu{
+  background-color:white;
+  color: black;
+  position: fixed;
+  height: 500px;
+  left: 500px;
+
+}
+
+#sidemenu #header{
+  text-align: center;
+  color: rgb(194, 187, 203);
+  width: 100%;
+  height: 2px;
+  margin-top: 20px ;
+}
+  #sidemenu #header{
+  box-sizing: border-box;
+  border-bottom: solid 1px var(--hovercolor);
+
+}
+#sidemenu #perfil {
+  color: black;
+  border-bottom: sold 1px var(--hovercolor);
+  padding: var(--padding)0;
+  text-align: center;
+
+}
+#sidemenu a{
+  color: rgb(146, 139, 155);
+  text-decoration: none;
+}
+#sidemenu #perfil #foto img{
+  border-radius: 50%;
+width: 40%;
+margin-top: 50px;
+margin-right: 20px;
+
+  }
+  #sidemenu #menu-items{
+    overflow: hidden;
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+  #sidemenu #menu-items .item{
+    width: var(--width);
+  }
+  #sidemenu #menu-items .item .icon{
+    display: inline-block;
+  }
+#sidemenu #menu-items .item .icon,
+#sidemenu #menu-items .item .title{
+  font-size: 15px;
+  vertical-align: middle;
+  overflow: hidden;
+  display: inline-block;
+margin-top: 20px;
+}
+#sidemenu #menu-items .item a{
+  display: block;
+}
+#sidemenu #menu-items  .item .icon{
+  box-sizing: border-box;
+  padding: var(--pading);
+  width: var(--width-collapsed);
+}
+ #sidemenu #menu-items .item .icon img{
+  width: 60%;
+ }
+
+
