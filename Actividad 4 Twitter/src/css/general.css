@@ -1,0 +1,267 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  background-color:black;
+}
+.fondo{
+  width: 600px;
+  height: 500px;
+}
+.icon{
+  width: 50px;
+  height: 50px;
+  margin-left: 30px;
+  margin
+}
+.iconbutton{
+  padding-left: 50px;
+  width: 20px;
+  height: 20px;
+}
+.titulo{
+  color:white;
+  font-family: arial;
+  font-size: 70px;
+  margin-left: 30px;
+  margin-top: 50px;
+}
+.sub{
+  color:white;
+  font-family: arial;
+  font-size: 35px;
+  margin-left: 30px;
+  margin-top: 50px;
+  margin-bottom: 20PX;
+}
+.container > div{
+  min/height: 100px;
+}
+.container > div:first-child {
+  width: 40vw;
+  background-image: url("fondotwitter.png");
+  display: flex;
+  justify-content: center;
+}
+.container > div:nth-child(2) {
+  width: 50vw;
+  background-color: black;
+  size: 30px;
+}
+.terminos{
+margin-top: 30px;
+ margin-left: 30px;
+ font-family: 'arial';
+ font-size: 14px;
+ color: gray; 
+}
+.iniciarsesion{
+  margin-top: 30px;
+  margin-left: 30px;
+  font-family: 'arial';
+  font-size: 20px;
+  color: white; 
+}
+.boton1 {
+  margin-left: 30px;
+  margin-top: 10px;
+  border: 1px solid white; 
+  padding : 5px; 
+  padding-right: 85px;
+  padding-left: 50px;
+  font-size: 20px;
+  background-color: white;
+  color: black; 
+  text-decoration: none; 
+  font-family: 'arial', sans-serif; 
+  font-weight: bold;
+  text-align: center;
+  border-radius: 50px; 
+}
+.boton2 {
+ margin-left: 30px;
+ margin-top: 10px;
+ border: 1px solid white; 
+ padding : 5px; 
+ padding-right: 100px;
+ padding-left: 50px;
+ font-size: 20px;
+ background-color: white;
+ color: black; 
+ text-decoration: none; 
+ font-family: 'arial', sans-serif; 
+ font-weight: bold;
+ border-radius: 50px; 
+ text-align:center;
+}
+.boton3 {
+    margin-left: 30px;
+    margin-top: 10px;
+border: 1px solid white; 
+padding : 5px; 
+padding-right: 50px;
+padding-left: 50px;
+ font-size: 20px;
+background-color: white;
+color: black; 
+text-decoration: none; 
+font-family: 'arial', sans-serif; 
+font-weight: bold;
+text-align: center;
+border-radius: 50px; 
+}
+
+.piedepagina{
+  background-color: black;
+}
+
+.direccionamiento{
+  color:skyblue; 
+text-decoration: none; 
+}
+.botones{
+    color:black; 
+text-decoration: none; 
+}
+.piedepaginadireccionamiento{
+    color:gray; 
+    text-decoration: none; 
+    margin-left: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    font-size: 15px;
+    text-align: center;
+}
+
+@media(max-width: 1012px){
+  .container>div:first-child{
+
+background-color: blue;
+top: 490px;
+position: relative;
+width: 100vw;
+height: 200px;
+
+}
+ .container > div:nth-child(2) {
+ width: 100vw;
+ height:auto ;
+ background-color: black;
+}
+
+.fondo{
+padding: 10px 50vw 10px 50vw;
+height: 200px;
+width: 200px;
+}
+
+.icon{
+  width: 50px;
+  height: 50px;
+  margin-left: 200px;
+  position: relative;
+  top: -200px;
+  margin
+}
+.titulo{
+  color:white;
+  font-family: arial;
+  font-size: 40px;
+  position:relative ;
+  margin-left: 200px;
+  margin-top: -180px;
+}
+.sub{
+  color:white;
+  font-family: arial;
+  font-size: 35px;
+  margin-left: 200px;
+  margin-top: 50px;
+  margin-bottom: 20PX;
+}
+
+.iniciarsesion{
+   margin-top: 30px;
+      margin-left: 200px;
+      font-family: 'arial';
+   font-size: 20px;
+   color: white; 
+}
+.terminos{
+  position: relative;
+  margin-top: 30px;
+      margin-left: 200px;
+font-family: 'arial';
+   font-size: 14px;
+   color: gray; 
+}
+.boton1 {
+    margin-left: 200px;
+    margin-top: 10px;
+border: 1px solid white; 
+padding : 5px; 
+padding-right: 85px;
+padding-left: 50px;
+ font-size: 20px;
+background-color: white;
+color: black; 
+text-decoration: none; 
+font-family: 'arial', sans-serif; 
+font-weight: bold;
+text-align: center;
+border-radius: 50px; 
+}
+.boton2 {
+    margin-left: 200px;
+    margin-top: 10px;
+border: 1px solid white; 
+padding : 5px; 
+padding-right: 100px;
+padding-left: 50px;
+ font-size: 20px;
+background-color: white;
+color: black; 
+text-decoration: none; 
+font-family: 'arial', sans-serif; 
+font-weight: bold;
+border-radius: 50px; 
+text-align:center;
+}
+.boton3 {
+margin-left: 200px;
+margin-top: 10px;
+border: 1px solid white; 
+padding : 5px; 
+padding-right: 50px;
+padding-left: 50px;
+font-size: 20px;
+background-color: white;
+color: black; 
+text-decoration: none; 
+font-family: 'arial', sans-serif; 
+font-weight: bold;
+text-align: center;
+border-radius: 50px; 
+}
+
+.piedepaginadireccionamiento{
+ color:gray; 
+ position: relative;
+ top: 220px;
+ text-decoration: none; 
+ margin-left: 20px;
+ padding-left: 16px;
+ padding-right: 16px;
+ padding-bottom: 12px;
+ padding-top: 12px;
+ font-size: 15px;
+ text-align: center;
+}
+}
+}

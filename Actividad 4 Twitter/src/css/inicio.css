@@ -1,0 +1,261 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+input[type=text] {
+  background-color: #253341;
+  border: 1px solid #253341; 
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+  padding-right: 180px;
+  padding-top: 10px;
+  border-radius: 50px; 
+  position: relative;
+  margin-top: 10px;
+  margin-left: 50px;
+
+
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100/3vw;
+}
+.container > div{
+  min/height: 100px;
+}
+.container > div:first-child {
+  width: 20vw;
+  position: fixed;
+
+}
+.container > div:nth-child(2) {
+  width: 40vw;
+  size: 30px;
+  border-left:  gray 1px solid;;
+  border-right: gray 1px solid;
+margin-left: 265px;
+
+}
+.container > div:last-child {
+  width: 30vw;
+   size: 30px;
+   margin-left: 805px;
+     position: fixed;
+ 
+}
+.buscador{
+border-bottom: 1px solid white;
+}
+.seguidores{
+background-color: #192734;
+width: 30vw;
+margin: 20px 30px 0px 50px;
+
+border-radius: 20px; 
+}
+.fotoperfil{
+  width: 50px;
+  height: 50px;
+  margin: 10px 10px 10px 10px;
+  position: relative;
+  top: 10px;
+  border-radius:50px ;
+}
+.miperfil{
+   width: 50px;
+  height: 50px;
+  margin: 10px 10px 10px 30px;
+  position: relative;
+  top: 10px;
+}
+.canaltwitter{
+  position: relative;
+   top: -60px;
+  color: white;
+  font-family: arial;
+  margin-left: 80px;
+}
+.arroba{
+  position: relative;
+  color: gray;
+  top: -60px;
+  font-family: arial;
+  margin-left: 80px;
+}
+.seguir{
+  color:black;
+border: 1px solid white;
+padding-top: 5px; 
+padding-bottom: 5px;
+padding-right: 20px;
+padding-left: 20px;
+font-size: 20px;
+background-color: white;
+text-decoration: none; 
+font-family: 'arial', sans-serif; 
+border-radius: 50px; 
+position: relative;
+  top: -20px;
+ margin-left: 200px;
+}
+
+.boton1 {
+color: white;
+margin-left: 30px;
+margin-top: 10px;
+border: 1px solid #15202B; 
+padding : 5px; 
+padding-right: 10px;
+font-size: 20px;
+background-color: #15202B;
+text-decoration: none; 
+font-family: 'arial', sans-serif; 
+border-radius: 50px; 
+}
+.boton2 {
+    margin-left: 30px;
+    margin-top: 20px;
+border: 1px solid #1A8CD8; 
+padding : 10px; 
+padding-left: 55px;
+padding-right: 90px;
+font-size: 20px;
+background-color: #1A8CD8;
+color: white; 
+font-family: 'arial', sans-serif; 
+font-weight: bold;
+text-align: center;
+border-radius: 50px; 
+}
+.boton3 {
+color: white;
+margin-left: 2px;
+border: 1px solid #15202B; 
+padding : 5px; 
+padding-right: 30px;
+ font-size: 10px;
+background-color: #15202B;
+text-decoration: none; 
+font-family: 'arial', sans-serif; 
+border-radius: 50px; 
+
+}
+
+.titulo{
+  color:white;
+  font-family: arial;
+  font-size: 20px;
+  margin-left: 30px;
+  margin-top: 50px;
+}
+
+.icon{
+  width: 50px;
+  height: 50px;
+  margin-left: 50px;
+}
+.iconbutton{
+  position: relative;
+  top: 5px;
+  padding-left: 30px;
+    padding-right: 20px;
+  width: 25px;}
+.inicio{
+  color: white;
+  font-family: arial;
+  margin-left: 10px;
+}
+.imagenpublicada{
+width: 510px;
+height: 270px;
+border-radius: 50px;
+margin-left: 10px; 
+}
+
+.botones{
+  color:white; 
+text-decoration: none; 
+}
+.nombredelpublicador{  
+  position: relative;
+   top: -50px;
+  color: white;
+  font-family: arial;
+  margin-left: 80px;}
+.imagendelpublicador{
+  width: 50px;
+  height: 50px;
+  margin: 10px 10px 0px 10px;
+  position: relative;
+  top: 10px;
+border-radius: 30px;
+}
+
+ .imagenperfil{
+     width: 50px;
+  height: 50px;
+  margin: 10px 10px 0px 10px;
+  position: relative;
+  top: 10px;
+border-radius: 30px;
+  }
+  .miperfil{ position: relative;
+   top: -50px;
+  color: white;
+  font-family: arial;
+  margin-left: 80px;}
+  .arrobaperfil{
+     position: relative;
+  color: gray;
+  top: -60px;
+  font-family: arial;
+  margin-left: 80px;
+  }
+.titulos{
+color: white;
+font-family: arial;
+position: relative;
+margin-left: 80px;
+top: -40px;
+}
+
+@media(max-width: 1040px){
+  .boton1{
+
+border: 1px solid #15202B; 
+font-size: 0px;
+padding-right:50px ;
+background-color: #15202B;
+text-decoration: none; 
+font-family: 'arial', sans-serif; 
+  }
+  .boton2   {
+  margin left:30px;
+  padding-right: 10px;
+  padding-left: 10px;
+  }
+  .imagenperfil{display: none;}
+  .miperfil{display: none;}
+  .arrobaperfil{display: none;}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100/2vw;
+}
+  .container > div:first-child {
+   width: 20vw;  
+   background-color: #15202B;
+   }
+  .container > div:nth-child(2) {
+
+  width: 80vw;
+  background-color:#15202B;
+  border-left: gray 1px solid;
+  }
+  .container > div:last-child{
+  display: none;
+  }
+  }
