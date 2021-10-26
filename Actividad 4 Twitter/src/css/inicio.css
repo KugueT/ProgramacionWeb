@@ -7,14 +7,14 @@ input[type=text] {
   border: 1px solid #253341; 
   background-position: 10px 10px;
   background-repeat: no-repeat;
-  padding-left: 40px;
-  padding-right: 180px;
+  padding-left: 10vw;
+  padding-right: 10vw;
   padding-top: 10px;
   border-radius: 50px; 
   position: relative;
   margin-top: 10px;
-  margin-left: 50px;
-
+  margin-left: 10px;
+  margin-right: 10px;
 
 }
 .container{
@@ -22,12 +22,19 @@ input[type=text] {
   flex-wrap: wrap;
   width: 100/3vw;
 }
+
 .container > div{
   min/height: 100px;
 }
 .container > div:first-child {
   width: 20vw;
   position: fixed;
+}
+.iconostar{
+  height: 25px;
+  position: relative;
+  margin-left: 38vw;
+  top: -30px;
 
 }
 .container > div:nth-child(2) {
@@ -35,14 +42,14 @@ input[type=text] {
   size: 30px;
   border-left:  gray 1px solid;;
   border-right: gray 1px solid;
-margin-left: 265px;
+  margin-left: 265px;
 
 }
 .container > div:last-child {
-  width: 30vw;
+   width: 30vw;
    size: 30px;
-   margin-left: 805px;
-     position: fixed;
+   margin-left: 60vw;
+   position: fixed;
  
 }
 .buscador{
@@ -51,7 +58,7 @@ border-bottom: 1px solid white;
 .seguidores{
 background-color: #192734;
 width: 30vw;
-margin: 20px 30px 0px 50px;
+margin: 20px 30px 0px 10px;
 
 border-radius: 20px; 
 }
@@ -103,16 +110,17 @@ position: relative;
 
 .boton1 {
 color: white;
-margin-left: 30px;
 margin-top: 10px;
 border: 1px solid #15202B; 
 padding : 5px; 
-padding-right: 10px;
+padding-left: 30px;
+padding-right: 30px;
 font-size: 20px;
 background-color: #15202B;
 text-decoration: none; 
 font-family: 'arial', sans-serif; 
-border-radius: 50px; 
+
+ 
 }
 .boton2 {
     margin-left: 30px;
@@ -196,22 +204,25 @@ border-radius: 30px;
  .imagenperfil{
      width: 50px;
   height: 50px;
-  margin: 10px 10px 0px 10px;
+  margin: 10px 10px 0px 60px;
   position: relative;
   top: 10px;
 border-radius: 30px;
+
   }
   .miperfil{ position: relative;
    top: -50px;
   color: white;
   font-family: arial;
-  margin-left: 80px;}
+  margin-left: 110px;
+x;
+}
   .arrobaperfil{
      position: relative;
   color: gray;
-  top: -60px;
+  top: -80px;
   font-family: arial;
-  margin-left: 80px;
+  margin-left: 110px;
   }
 .titulos{
 color: white;
@@ -221,7 +232,10 @@ margin-left: 80px;
 top: -40px;
 }
 
-@media(max-width: 1040px){
+@media(max-width: 1296px){
+  .iconostar{
+    margin-left: 75vw;
+  }
   .boton1{
 
 border: 1px solid #15202B; 
@@ -232,7 +246,7 @@ text-decoration: none;
 font-family: 'arial', sans-serif; 
   }
   .boton2   {
-  margin left:30px;
+  margin left:10px;
   padding-right: 10px;
   padding-left: 10px;
   }
