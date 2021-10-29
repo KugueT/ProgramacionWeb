@@ -1,0 +1,84 @@
+<html>
+<head>
+<title>JAVA SCRIPT</title>
+    <script>
+        var name;
+       name = prompt('Ingrese su nombre');
+        alert('Bienvenido:'+ name);
+
+        var edad ;
+        edad  = prompt('Ingrese su edad');
+        if(edad >= 18){
+            alert('Si tiene la edad para conducir ');
+        } else{
+            alert('No tiene la edad para conducir');
+        }
+
+        var calificacion ;
+        calificacion =  prompt('Ingrese una calificacion');
+            if (calificacion <= 3) {
+                alert('Muy deficiente');
+             }
+             if (calificacion > 3 && calificacion <= 5) {
+               alert('Insuficiente');
+             }
+             if(calificacion >5 && calificacion <=6){
+                 alert('Suficiente');
+             }
+              if(calificacion >6 && calificacion <=7){
+               alert('Bien');
+              }
+                if(calificacion >7 && calificacion <=9){
+                    alert('Suficiente');
+              }
+                if(calificacion >9 && calificacion <=10){
+                  alert('Sobresaliente');
+                }
+
+      var numCalificaciones ;
+      var promedio;
+      var cali;
+      var aux=0;
+      var aux2=0;
+     numCalificaciones =  prompt('Ingrese el numero de califiaciones ');
+     for(var i=1;i <= numCalificaciones ;i++){
+
+         cali=  prompt('Ingrese la calificacion '+ i + ':');
+         aux2= parseInt(cali);
+         aux= parseInt(aux)+ parseInt(aux2);
+
+     }
+      promedio=parseInt(aux)/parseInt(numCalificaciones);
+        alert('La suma es: '+ aux);
+      alert('El promedio es: '+ parseFloat(promedio));
+       var si =1;
+       var no;
+       var promedio1;
+       var cont=0;
+       var auxi=0;
+       var auxi2=0;
+while(si == 1) {
+    var calificacion1 = prompt('Dite la calificacion');
+            auxi2=parseInt(calificacion1);
+            auxi=parseInt(auxi)+ parseInt(auxi2);
+     cont=parseInt(cont)+1;
+      no = prompt('Quiere seguir digitando calificaciones? 1 para si , 0 para no');
+    si=no;
+} promedio1=parseInt(auxi)/parseInt(cont);
+  alert('El promedio es: '+ parseFloat(promedio1));
+
+
+    var limit = prompt('Cantidad del numero fibonacci');
+	var fibo = [0,1];
+	for(i=2; i <= limit; i++){
+		fibo.push(fibo[i-1] + fibo[i-2]);
+		alert(fibo[i]);
+	}
+
+    </script>
+</head>
+<body>
+
+</body>
+
+</html>
