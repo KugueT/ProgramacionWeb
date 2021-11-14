@@ -1,0 +1,107 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+div{
+	margin: 0px;
+}
+.nombre{
+	color:white;
+	position: relative;
+	top: 300px;
+	left: 90px;
+	font color: rgb(200, 20, 30);
+	font-size: 20px;
+}
+.id{
+	color:white;
+	position: relative;
+	top: 455px;
+	left: 390px;
+	font color: rgb(200, 20, 30);
+	font-size: 20px;
+}
+.pokedex{
+	margin: 0px;
+	padding: 0px;
+	top: -50px;
+
+}
+.tipo1{
+	color:white;
+	position: relative;
+top: 440px;
+left: 140px;
+}
+.tipo2{
+	color:white;
+		position: relative;
+top: 415px;
+left: 60px;
+}
+.img1{
+	position: relative;
+top: 250px;
+left: 310px;
+
+width: 80px;
+}
+.img2{
+	position: relative;
+top: 250px;
+left: 290px;
+width: 80px;
+}
+.pokemon-list{
+	  padding: 0px;
+  margin: 0px;
+}
+.pokemon{
+	  padding: 0px;
+  margin: 0px;
+}
+.buscar{
+	padding: 10px;
+}
+
+	.boton {
+  transition-duration: 0.4s;
+}
+
+.boton:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+.boton{
+	margin-left: 30px;
+  margin-top: 10px;
+  border: 1px solid white; 
+  padding : 5px; 
+  padding-right: 85px;
+  padding-left: 50px;
+  font-size: 20px;
+  background-color: white;
+  color: black; 
+  text-decoration: none; 
+  font-family: 'arial', sans-serif; 
+  font-weight: bold;
+  text-align: center;
+
+}
+
+.buscar{
+
+  border: 1px solid #253341; 
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-top: 10px;
+  border-radius: 50px; 
+  position: relative;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+
